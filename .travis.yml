@@ -26,7 +26,7 @@ addons:
 
 install:
   - pip install -q -r requirements.txt
-  - pip install skbuild  # build dep for tomopy 
+  - pip install scikit-build  # build dep for tomopy 
   - pip install git+https://github.com/tomopy/tomopy
   - ls -alF /home/travis/virtualenv/python3.6.3/lib/
   - export LD_LIBRARY_PATH="/home/travis/virtualenv/python3.6.3/lib/":$LD_LIBRARY_PATH
