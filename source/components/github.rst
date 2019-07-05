@@ -35,6 +35,8 @@ You can then paste the token into a file in your home directory. Make sure
 to restrict the permissions with ``chmod 600 path/to/file_with_token`` or any
 user will be able to read it and log into GitHub as you!
 
-To *use* the token, set the remote urls in the HTTPS style
-(not ``git@github.com:``). When you try to push you will be prompted to enter
-your username. Paste the token it instead. GitHub will recognize your username
+To *use* the token, set the remote urls in the HTTPS style (not
+``git@github.com:``). When you try to push you will be prompted to
+enter your username. AFter entreing the username, you will be prompted
+to enter your password. Paste the token in instead.
+
