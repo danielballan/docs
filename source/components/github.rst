@@ -28,7 +28,7 @@ Note ``git@github.com:`` in place of where you might have
    $ git remote set-url <NAME> <NEW_URL>
 
 For use inside the ring, connecting via SSH does not work. (Consult ITC to ask
-why.) Your best option is to a personal access token, which you can do at
+why.) Your best option is to use a personal access token, which you can do at
 `github.com/settings/tokens <https://github.com/settings/tokens>`_ or by
 following `GitHub's token guide <https://help.github.com/en/articles/creating-a-personal-access-token-for-the-command-line>`_.
 You can then paste the token into a file in your home directory. Make sure
@@ -38,4 +38,3 @@ user will be able to read it and log into GitHub as you!
 To *use* the token, set the remote urls in the HTTPS style
 (not ``git@github.com:``). When you try to push you will be prompted to enter
 your username. Paste the token it instead. GitHub will recognize your username
-automatically from the token.
