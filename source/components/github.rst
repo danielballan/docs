@@ -40,3 +40,12 @@ To *use* the token, set the remote urls in the HTTPS style (not
 enter your username. AFter entreing the username, you will be prompted
 to enter your password. Paste the token in instead.
 
+You can also add the beamline workstation as remote on your machine (assuming you have
+your ssh config set up correctly):
+
+.. code-block:: bash
+
+   git remote add <NAME> git+ssh://<BL_MACHINE_NAME>/<PATH_TO_REPO>
+
+which will allow you to pull from the beamline machine to your machine
+and then push back out to github.
