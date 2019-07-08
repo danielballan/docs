@@ -48,4 +48,4 @@ your ssh config set up correctly):
    git remote add <NAME> git+ssh://<BL_MACHINE_NAME>/<PATH_TO_REPO>
 
 which will allow you to pull from the beamline machine to your machine
-and then push back out to github.
+and then push back out to GitHub.
