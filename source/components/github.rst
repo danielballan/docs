@@ -37,7 +37,7 @@ user will be able to read it and log into GitHub as you!
 
 To *use* the token, set the remote urls in the HTTPS style (not
 ``git@github.com:``). When you try to push you will be prompted to
-enter your username. AFter entreing the username, you will be prompted
+enter your username. After entering the username, you will be prompted
 to enter your password. Paste the token in instead.
 
 You can also add the beamline workstation as remote on your machine (assuming you have
